@@ -90,7 +90,10 @@
     scroll-behavior: smooth;
   }
 }
-
+.imagem-akmos{
+	width: 80px;
+	height: 80px;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);

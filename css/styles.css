@@ -94,6 +94,24 @@
 	width: 40px;
 	height: 40px;
 }
+.banner{
+	display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.banner li{
+    list-style: none;
+    position: absolute;
+}
+.banner img{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);

@@ -103,51 +103,6 @@
     margin-top: 10px;
     position: relative;
 }
-.banner li{
-    list-style: none;
-    position: absolute;
-}
-.banner img{
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    vertical-align: top;
-}
-.banner input {
-    display: none;
-}
-.banner label {
-    background-color: #000;
-    bottom: 10px;
-    cursor: pointer;
-    display: block;
-    height: 10px;
-    position: absolute;
-    width: 10px;
-    z-index: 10;
-}
-
-.banner li:nth-child(1) label {
-    left: 10px;
-}
-
-.banner li:nth-child(2) label {
-    left: 20px;
-}
-
-.banner li:nth-child(3) label {
-    left: 30px;
-}
-.banner img {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.banner li input:checked ~ img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
-}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);

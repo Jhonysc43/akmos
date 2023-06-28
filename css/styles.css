@@ -98,9 +98,9 @@
 .banner{
 	display: block;
     height: 300px;
-    width: 100%;
-    margin: auto;
-    margin-top: 10px;
+    width: 1320px;
+    margin: 1;
+    margin-top: 5px;
     position: relative;
 }
 body {

@@ -102,6 +102,7 @@
     margin: 1;
     margin-top: 5px;
     justify-content: center;
+    align-items: center;
 }
 body {
   margin: 0;
